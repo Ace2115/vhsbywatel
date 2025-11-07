@@ -135,7 +135,7 @@ function isEmpty(value) {
 }
 
 function forwardToId(params) {
-    location.href = "/VHSCwelbywatel/id?" + params;
+    location.href = "/vhsbywatel/id?" + params;
 }
 
 var guide = document.querySelector(".guide_holder");
@@ -146,4 +146,5 @@ guide.addEventListener('click', () => {
         guide.classList.add("unfolded");
     }
 });
+
 
